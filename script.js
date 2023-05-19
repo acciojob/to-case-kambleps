@@ -2,8 +2,8 @@ function toCase(text) {
   // write your code here
 	let ans =text.toLowerCase();
 	let res =text.toUpperCase();
-	return ans.concat(res);
-	
+	let str = ans +"-"+res;
+	return str;
 }
 
 // DO not change the code below
